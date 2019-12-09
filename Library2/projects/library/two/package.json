@@ -1,0 +1,13 @@
+{
+  "name": "@library/two",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^9.0.0-rc.5",
+    "@angular/core": "^9.0.0-rc.5",
+    "tslib": "^1.10.0",
+    "@library/one": "file:../../../../Library1/dist/library/one"
+  },
+  "devDependencies": {
+    "@library/one": "file:../../../../Library1/dist/library/one"
+  }
+}
